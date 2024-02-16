@@ -1,0 +1,199 @@
+/* Configurações Gerais */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+}
+
+.contexto{
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+/* ***** */
+
+/* Header */
+header{
+    background-color: rgb(180,180,180);
+    padding: 20px 2% 40px 2%;
+}
+
+header > .contexto{
+    display: flex;
+    justify-content: space-between;
+}
+
+header img{
+    width: 160px;
+}
+/* ***** */
+
+/* section bg-form */
+section.bg-form{
+    background-image: url('../img/bg-form.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 0 2%;
+    height: 600px;
+}
+
+section.bg-form .contexto{
+    display: flex;
+    justify-content: flex-end;
+}
+
+form{
+    max-width:500px;
+    width: 100%;
+    padding: 25px 2%;
+}
+
+.formulario{
+    height: 640px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    z-index: 1;
+    top: -20px;
+    box-shadow: 1px 1px 2px 1px rgb(180, 180, 180);
+}
+
+.formulario h2{
+    max-width: 500px;
+    width: 100%;
+    background-color: rgb(210,210 ,210 );
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+form label{
+    display: block;
+}
+
+form input{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 7px;
+    outline: 0;
+    border: 1px solid #ccc;
+}
+
+.wraper-input:not(:first-child){
+    margin-top: 30px;
+}
+
+form button{
+    width: 100%;
+    background-color: #033c50;
+    margin-top: 50px;
+    padding: 15px 0;
+    color: white;
+    border: 0;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+form button:hover{
+    background-color: #022531;
+}
+
+form p{
+    margin-top: 30px;
+}
+/* ***** */
+
+/* section chamada */
+
+.chamada{
+    background-color: rgb(20, 20, 20);
+    color: white;
+    text-align: center;
+    padding: 70px 2%;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.arrow{
+    background-image: url('../img/arrow.png');
+    width: 50px;
+    height: 50px;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    left: 50%;
+    top: -25px;
+    transform: translateX(-50%);
+}
+/* ***** */
+
+/* mosaico */
+.mosaico{
+    background-color: rgb(63, 63, 63);
+}
+
+.mosaico .contexto{
+    box-shadow: 0px 0px 10px 1px black;
+    max-width: 1920px;
+}
+
+.container-mosaico{
+    display: flex;
+    align-items: center;
+}
+
+.bg-mosaico{
+    width: 60%;
+    padding-top: 25%;
+    background-position: center;
+    background-size: cover;
+}
+
+.texto-mosaico{
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    padding: 1% 3%;
+    color: white;
+}
+
+
+
+.img1{
+    background-image: url('../img/mosaico1.jpg');
+}
+
+.img2{
+    background-image: url('../img/mosaico2.jpg');
+}
+
+.img3{
+    background-image: url('../img/mosaico3.jpg');
+}
+
+.img4{
+    background-image: url('../img/mosaico4.jpg');
+}
+
+.reverter{
+    flex-direction: row-reverse;
+}
+/* ***** */
+
+/* footer */
+footer{
+    text-align: center;
+    padding: 20px 2%;
+    background-color: rgb(180,180,180);
+}
+
+p{
+    margin: 20px 0;
+}
+
+footer img{
+    width: 120px;
+}
+/* ***** */

@@ -1,0 +1,58 @@
+@media screen and (max-width: 1200px){
+    .arrow{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    section.bg-form{
+        height: auto;
+        padding: 30px 2%;
+    }
+    
+    section.bg-form .contexto{
+        justify-content: center;
+    }
+    
+    
+    .formulario{
+        height: auto;
+        position: static;
+        top:unset;
+        box-shadow:none;
+        background-color: rgba(255, 255, 255, 0.616);
+    }
+    
+}
+
+@media screen and (max-width: 768px){
+    .container-mosaico{
+        flex-wrap: wrap;
+    }
+    
+    .bg-mosaico{
+        width: 100%;
+        padding-top: 40%;
+    }
+    
+    .texto-mosaico{
+        width: 100%;
+        padding: 100px 3%;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 540px) {
+    header > .contexto{
+        display: flex;
+        flex-direction: column;
+        justify-content: initial;
+        align-items: center;
+    }
+
+    header .contexto img:first-child{
+        margin-bottom: 15px;
+    }
+}
